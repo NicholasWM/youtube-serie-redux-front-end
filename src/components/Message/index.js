@@ -1,6 +1,5 @@
 import React from 'react'
 import {useSelector} from 'react-redux'
-import {hideMessage, showMessage} from '../../store/layout'
 export default function Message(){
     const isShow = useSelector(({layout})=>layout.showMessage)
     return (
